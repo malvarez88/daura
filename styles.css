@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'Regular';
+    src: local('AdventorRegular'), 
+    url('./fonts/tex-gyre-adventor.regular.otf') format("opentype");;
+  }
+  
+  
+  @font-face {
+    font-family: 'Bold';
+    src: local('AdventorBold'), 
+    url('./fonts/tex-gyre-adventor.bold.otf') format("opentype");;
+  }
+  
+  @font-face {
+    font-family: 'ExtraLigth';
+    src: local('TickbiteLight'), 
+    url('./fonts/tickbite-type-colin-extralight.otf') format("opentype");;
+  }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background: white;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family:'Regular';
+  gap: 20px;
+}
+
+hr {
+  width: 30%;
+  background: black;
+  height: 1px;
+  border: none;
+  border-radius: 50%;
+  /* margin: 20px; */
+}
+
+
+.daura-arq {
+  font-size: 40px;
+  color: black;
+}
+
+
+.under-construction {
+    font-family: 'Regular';
+    font-size: 20px;
+}
+
+.daura-logo {
+    width: 150px;
+}
+
+.link {
+    font-family: 'Bold';
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  color: #D06B3C;
+}
+
+.general-text {
+  width: 500px;
+  text-align: justify;
+  font-family: 'Regular';
+  letter-spacing: 1px;
+}
+
+
+
+@media screen and (max-width: 600px) {
+  .general-text {
+    width: 300px;
+  }
+
+  .daura-arq {
+    font-size: 30px;
+  }
+
+  .general-text {
+    font-size: 15px;
+  }
+}
