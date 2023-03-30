@@ -47,6 +47,7 @@ hr {
 .daura-arq {
   font-size: 40px;
   color: black;
+  text-align: center;
 }
 
 
@@ -64,6 +65,7 @@ hr {
     text-decoration: none;
     color: black;
     font-size: 20px;
+    text-decoration: underline;
 }
 
 .link:hover {
@@ -86,10 +88,14 @@ hr {
   }
 
   .daura-arq {
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .general-text {
-    font-size: 15px;
+    font-size: 14px;
+  }
+
+  .under-construction {
+    font-size: 18px;
   }
 }
