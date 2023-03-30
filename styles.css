@@ -32,6 +32,7 @@ body {
   align-items: center;
   font-family:'Regular';
   gap: 20px;
+  min-height: 500px;
 }
 
 hr {
@@ -99,3 +100,5 @@ hr {
     font-size: 18px;
   }
 }
+
+@media screen and (max-heigth: )
